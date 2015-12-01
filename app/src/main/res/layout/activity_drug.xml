@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="DRUG LIST"
+            android:text="ยารักษาโรค"
             android:id="@+id/textView2"
             android:textSize="40sp"
             android:layout_gravity="center_horizontal" />
@@ -109,7 +109,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="ชนิดอื่นๆ"
                 android:id="@+id/textView23"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical" />
         </LinearLayout>
 
     </LinearLayout>

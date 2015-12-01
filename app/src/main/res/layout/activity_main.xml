@@ -10,7 +10,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
 
         <ImageView
             android:layout_width="150dp"
@@ -24,8 +25,9 @@
             android:layout_height="wrap_content"
             android:text="@string/app_name"
             android:id="@+id/textView"
-            android:textSize="35sp"
-            android:layout_gravity="center_horizontal" />
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#7afdfb" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -33,17 +35,6 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal">
 
-            <EditText
-                android:layout_width="190dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/editText2"
-                android:hint="Search" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Search"
-                android:id="@+id/button" />
         </LinearLayout>
 
     </LinearLayout>
@@ -92,5 +83,25 @@
             android:background="@drawable/information1" />
 
     </LinearLayout>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Search"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_toRightOf="@+id/editText2"
+        android:layout_toEndOf="@+id/editText2" />
 
 </RelativeLayout>

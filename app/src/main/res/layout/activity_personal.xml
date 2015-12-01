@@ -109,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Usre Information"
+            android:text="ข้อมูลผู้ใช้งาน"
             android:id="@+id/textView14"
             android:layout_gravity="bottom|center"
             android:textSize="35sp" />
@@ -123,7 +123,9 @@
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#050505"
+        android:background="#7afcfc" />
 
     <Button
         android:layout_width="wrap_content"
@@ -132,7 +134,9 @@
         android:id="@+id/button3"
         android:layout_alignTop="@+id/button2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#060606"
+        android:background="#84f2fa" />
 
     <TextView
         android:layout_width="wrap_content"
