@@ -28,9 +28,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="Type"
             android:id="@+id/txtDrugType"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textColor="#050505" />
 
         <TextView
             android:layout_width="wrap_content"
