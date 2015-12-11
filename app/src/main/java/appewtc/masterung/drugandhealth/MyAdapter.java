@@ -74,10 +74,10 @@ public class MyAdapter extends BaseAdapter{
                 intImage = R.drawable.mm4;
                 break;
             case 5:
-                intImage = R.drawable.mm2;
+                intImage = R.drawable.mm5;
                 break;
             case 6:
-                intImage = R.drawable.mm3;
+                intImage = R.drawable.mm6;
                 break;
             default:
                 break;
